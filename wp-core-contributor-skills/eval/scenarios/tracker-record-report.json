@@ -1,0 +1,16 @@
+{
+  "name": "Record a posted test report",
+  "skills": [
+    "wp-tracker"
+  ],
+  "query": "I posted the test report on Trac #66279, add it to my tracker.",
+  "expected_behavior": [
+    "Update data/contributions.json with type test-report, ticket 66279, where trac, date",
+    "Validate the JSON parses",
+    "Commit to the skills repo"
+  ],
+  "success_criteria": [
+    "JSON remains valid",
+    "Entry uses the documented fields"
+  ]
+}

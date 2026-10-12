@@ -1,0 +1,20 @@
+{
+  "name": "Scope survey on the test umbrella ticket",
+  "skills": [
+    "wp-core-contributor",
+    "wp-unit-test-writer"
+  ],
+  "query": "https://core.trac.wordpress.org/ticket/65819 I want to work here: check merged/closed/open PRs, then find 10-20 medium or complex scopes, not minimal changes.",
+  "expected_behavior": [
+    "List changesets and merged/closed/open PRs for #65819 with owners",
+    "Run find_untested.mjs over several src directories",
+    "Filter to untaken medium/complex scopes",
+    "Present a 10-20 row table with size, why it matters, risk, taken?",
+    "Mark one recommendation and wait for the user's choice"
+  ],
+  "success_criteria": [
+    "No scope already covered by an open PR",
+    "Mostly medium/complex scopes",
+    "No code written before the user picks"
+  ]
+}

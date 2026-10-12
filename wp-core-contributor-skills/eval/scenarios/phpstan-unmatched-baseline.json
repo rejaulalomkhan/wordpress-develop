@@ -1,0 +1,18 @@
+{
+  "name": "PHPStan ignore.unmatched after an annotation",
+  "skills": [
+    "wp-core-phpstan"
+  ],
+  "query": "My PR adds @phpstan-impure to WP_HTML_Processor::next_token() and PHPStan CI fails with 'Ignored error pattern ... was not matched'.",
+  "expected_behavior": [
+    "Explain the annotation made other baseline entries stale",
+    "Run composer phpstan locally",
+    "Remove the unmatched entries from tests/phpstan/baselines and drop an emptied file from phpstan.neon.dist",
+    "Check for an existing PR retiring the same baseline before continuing"
+  ],
+  "success_criteria": [
+    "Removes entries instead of adding ignores",
+    "Ends with [OK] No errors",
+    "Mentions duplicate-PR check"
+  ]
+}

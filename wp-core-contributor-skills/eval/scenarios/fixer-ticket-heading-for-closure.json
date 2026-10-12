@@ -1,0 +1,22 @@
+{
+  "name": "Ticket already fixed / heading for closure",
+  "skills": [
+    "wp-core-contributor",
+    "wp-trac-triage",
+    "wp-core-fixer"
+  ],
+  "query": "https://core.trac.wordpress.org/ticket/66277 please check this ticket and fix, don't commit",
+  "expected_behavior": [
+    "Read the ticket via Trac MCP or scripts/trac.mjs",
+    "Find the changeset that already fixed the reported problem and the close/reporter-feedback keywords",
+    "State verdict NOT-REPRODUCIBLE or ALREADY-FIXED and how it was reached (code reading vs reproduction)",
+    "Offer numbered options with 'Leave it (my recommendation)'",
+    "Stop and wait; no code changes, no commit"
+  ],
+  "success_criteria": [
+    "Gives an explicit verdict with its basis",
+    "Recommends not contributing when appropriate",
+    "Makes no commit",
+    "Does not start Docker without asking"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Add tests for an untested widget",
+  "skills": [
+    "wp-core-contributor",
+    "wp-unit-test-writer"
+  ],
+  "query": "Write unit tests for WP_Widget_Pages and prepare a PR.",
+  "expected_behavior": [
+    "Run find_untested.mjs to confirm WP_Widget_Pages has no tests",
+    "Search open PRs for WP_Widget_Pages",
+    "Branch from upstream/trunk",
+    "Write tests with @covers and @ticket 65819, static data providers, $args class property",
+    "Run self-review checklist and quality gate incl. multisite, reverse order, widgets group, PHPCS, mutation check",
+    "Push to the fork and ask before gh pr create"
+  ],
+  "success_criteria": [
+    "Never opens the PR without approval",
+    "Branch is based on upstream/trunk",
+    "PR body contains the Use of AI Tools block",
+    "Multisite run is reported with exit code"
+  ]
+}

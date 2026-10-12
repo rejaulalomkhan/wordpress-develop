@@ -1,0 +1,29 @@
+[
+  {
+    "type": "pr",
+    "number": 14185,
+    "repo": "WordPress/wordpress-develop",
+    "title": "Tests: Add unit test coverage for WP_Widget_Archives",
+    "ticket": 65819,
+    "state": "open",
+    "notes": "Review feedback from huzaifaalmesbah addressed in dd201f7; CI green.",
+    "url": "https://github.com/WordPress/wordpress-develop/pull/14185",
+    "date": "2026-10-11"
+  },
+  {
+    "type": "test-report",
+    "ticket": 66279,
+    "target": "PR 14187 vs PR 14199",
+    "where": "trac",
+    "summary": "14199 covers search and name__like; 14187 only search.",
+    "date": "2026-10-12"
+  },
+  {
+    "type": "review",
+    "number": 14195,
+    "repo": "WordPress/wordpress-develop",
+    "ticket": 66287,
+    "summary": "Tests pass on single site, multisite and PHP 8.5; permission test catches a mutated check.",
+    "date": "2026-10-12"
+  }
+]

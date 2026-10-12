@@ -1,0 +1,18 @@
+{
+  "name": "Docker engine not running on Windows",
+  "skills": [
+    "wp-core-env-setup"
+  ],
+  "query": "docker run hello-world says failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine",
+  "expected_behavior": [
+    "Explain Docker Desktop is not started or the engine is still starting",
+    "Ask the user to open Docker Desktop and wait for Engine running",
+    "If Virtual Machine Platform error appears, give the admin PowerShell feature commands and require a Windows restart",
+    "Re-run docker run --rm hello-world"
+  ],
+  "success_criteria": [
+    "Does not suggest reinstalling Windows or WSL first",
+    "Distinguishes engine-not-started from Virtual Machine Platform missing",
+    "Ends with a concrete verification command"
+  ]
+}
