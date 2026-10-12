@@ -1,0 +1,62 @@
+[
+  {
+    "number": 14184,
+    "repo": "WordPress/wordpress-develop",
+    "title": "Tests: Add unit test coverage for WP_Widget_Search",
+    "ticket": 65819,
+    "state": "open",
+    "ci": "green",
+    "opened": "2026-10-11",
+    "updated": "2026-10-11",
+    "url": "https://github.com/WordPress/wordpress-develop/pull/14184",
+    "notes": "Review feedback addressed in 1319de6 (removed empty tear_down, $args property)."
+  },
+  {
+    "number": 14185,
+    "repo": "WordPress/wordpress-develop",
+    "title": "Tests: Add unit test coverage for WP_Widget_Archives",
+    "ticket": 65819,
+    "state": "open",
+    "ci": "green",
+    "opened": "2026-10-11",
+    "updated": "2026-10-11",
+    "url": "https://github.com/WordPress/wordpress-develop/pull/14185",
+    "notes": "checked assertion, id assertions, unchecked-checkbox update() case fixed in dd201f7."
+  },
+  {
+    "number": 14186,
+    "repo": "WordPress/wordpress-develop",
+    "title": "Tests: Add unit test coverage for WP_Widget_Calendar",
+    "ticket": 65819,
+    "state": "open",
+    "ci": "green",
+    "opened": "2026-10-11",
+    "updated": "2026-10-11",
+    "url": "https://github.com/WordPress/wordpress-develop/pull/14186",
+    "notes": "PHP 8.5 setAccessible guard and post fixture (145d5ec), global $posts isolation (9d94223)."
+  },
+  {
+    "number": 14183,
+    "repo": "WordPress/wordpress-develop",
+    "title": "Code Quality: Annotate WP_HTML_Processor::next_token() as impure for PHPStan",
+    "ticket": 65817,
+    "state": "closed",
+    "ci": "red",
+    "opened": "2026-10-11",
+    "updated": "2026-10-11",
+    "url": "https://github.com/WordPress/wordpress-develop/pull/14183",
+    "notes": "Closed as duplicate of #14037 (missed two stale baseline entries)."
+  },
+  {
+    "number": 14182,
+    "repo": "WordPress/wordpress-develop",
+    "title": "Docs: Document WP_Http_Cookie properties as nullable",
+    "ticket": 65817,
+    "state": "closed",
+    "ci": "unknown",
+    "opened": "2026-10-11",
+    "updated": "2026-10-11",
+    "url": "https://github.com/WordPress/wordpress-develop/pull/14182",
+    "notes": "Closed as duplicate of #13983."
+  }
+]

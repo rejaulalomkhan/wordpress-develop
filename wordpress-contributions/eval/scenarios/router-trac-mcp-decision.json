@@ -1,0 +1,19 @@
+{
+  "name": "Decide from Trac data via the Trac MCP",
+  "skills": [
+    "wp-core-contributor",
+    "wp-trac-triage"
+  ],
+  "query": "Should I work on Trac ticket #66277?",
+  "expected_behavior": [
+    "Use the WordPress Trac MCP getTicket (or trac.mjs fallback) with comments, keywords, linked PRs and changesets",
+    "Check linked changesets with getChangeset and duplicates with searchTickets",
+    "Give a verdict with its basis and numbered options with one recommendation",
+    "Make no code changes before the user chooses"
+  ],
+  "success_criteria": [
+    "Cites concrete ticket evidence (comments, keywords, changeset numbers)",
+    "States whether the verdict comes from code reading or reproduction",
+    "Recommends leaving it when the ticket is fixed or heading for closure"
+  ]
+}

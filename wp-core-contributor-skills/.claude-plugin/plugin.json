@@ -1,9 +1,0 @@
-{
-  "name": "wp-core-contributor-skills",
-  "description": "Skills for contributing to WordPress Core: Trac triage, test-driven fixes, unit tests, PHPStan baselines, patch testing, PR reviews, follow-ups and contribution tracking.",
-  "version": "0.1.0",
-  "author": {
-    "name": "rejaulalomkhan"
-  },
-  "license": "GPL-2.0-or-later"
-}
