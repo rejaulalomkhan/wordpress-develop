@@ -1,9 +1,0 @@
-{
-  "name": "wordpress-contributions",
-  "description": "Skills and contribution log for WordPress Core: Trac triage via the WordPress Trac MCP, test-driven fixes, unit tests, PHPStan baselines, patch testing, PR reviews, follow-ups and tracking.",
-  "version": "0.1.0",
-  "author": {
-    "name": "rejaulalomkhan"
-  },
-  "license": "GPL-2.0-or-later"
-}
